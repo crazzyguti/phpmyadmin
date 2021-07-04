@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phpMyAdmin 5.2.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
-"POT-Creation-Date: 2021-06-27 00:08+0000\n"
+"POT-Creation-Date: 2021-07-04 01:03+0000\n"
 "PO-Revision-Date: 2021-01-22 17:26+0000\n"
 "Last-Translator: William Desportes <williamdes@wdes.fr>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/phpmyadmin/master/"
@@ -5153,7 +5153,7 @@ msgstr "예"
 #: libraries/classes/Controllers/Database/StructureController.php:1567
 #: libraries/classes/Controllers/Table/DropColumnController.php:80
 #: libraries/classes/Controllers/Table/OperationsController.php:341
-#: libraries/classes/Controllers/Table/ReplaceController.php:398
+#: libraries/classes/Controllers/Table/ReplaceController.php:399
 #: libraries/classes/Core.php:893 templates/preview_sql.twig:3
 msgid "No change"
 msgstr "변화 없음"
@@ -8567,6 +8567,7 @@ msgid "Error: Missing index on column(s)."
 msgstr ""
 
 #: libraries/classes/Database/Designer/Common.php:701
+#: libraries/classes/Database/Designer/Common.php:794
 msgid "Error: Relational features are disabled!"
 msgstr "오류: 릴레이션 기능이 비활성화 되어 있음!"
 
@@ -8594,13 +8595,13 @@ msgstr "외래키 릴레이션이 제거되었습니다."
 msgid "Error: FOREIGN KEY relationship could not be removed!"
 msgstr "오류: 외래키 릴레이션을 제거할 수 없습니다!"
 
-#: libraries/classes/Database/Designer/Common.php:812
+#: libraries/classes/Database/Designer/Common.php:820
 #, fuzzy
 #| msgid "Error: Internal relation could not be removed!"
 msgid "Error: Internal relationship could not be removed!"
 msgstr "오류: 내부 릴레이션을 제거할 수 없습니다!"
 
-#: libraries/classes/Database/Designer/Common.php:818
+#: libraries/classes/Database/Designer/Common.php:826
 #, fuzzy
 #| msgid "Internal relation has been removed."
 msgid "Internal relationship has been removed."
@@ -11909,14 +11910,14 @@ msgstr "잘못된 내보내기 타입"
 msgid "no description"
 msgstr "설명이 없습니다"
 
-#: libraries/classes/Relation.php:2074
+#: libraries/classes/Relation.php:2078
 msgid ""
 "You do not have necessary privileges to create a database named "
 "'phpmyadmin'. You may go to 'Operations' tab of any database to set up the "
 "phpMyAdmin configuration storage there."
 msgstr ""
 
-#: libraries/classes/Relation.php:2196
+#: libraries/classes/Relation.php:2200
 #, fuzzy, php-format
 #| msgid "Missing phpMyAdmin configuration storage tables"
 msgid ""
@@ -11924,14 +11925,14 @@ msgid ""
 "configuration storage there."
 msgstr "phpMyAdmin 설정 공간 테이블이 없습니다"
 
-#: libraries/classes/Relation.php:2204
+#: libraries/classes/Relation.php:2208
 #, fuzzy, php-format
 #| msgid "Missing phpMyAdmin configuration storage tables"
 msgid ""
 "%sCreate%s the phpMyAdmin configuration storage in the current database."
 msgstr "phpMyAdmin 설정 공간 테이블이 없습니다"
 
-#: libraries/classes/Relation.php:2212
+#: libraries/classes/Relation.php:2216
 #, fuzzy, php-format
 #| msgid "Missing phpMyAdmin configuration storage tables"
 msgid "%sCreate%s missing phpMyAdmin configuration storage tables."

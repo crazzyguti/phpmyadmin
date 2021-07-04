@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phpMyAdmin 5.2.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
-"POT-Creation-Date: 2021-06-27 00:08+0000\n"
+"POT-Creation-Date: 2021-07-04 01:03+0000\n"
 "PO-Revision-Date: 2021-05-01 18:32+0000\n"
 "Last-Translator: Meno25 <meno25mail@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/phpmyadmin/master/"
@@ -4887,7 +4887,7 @@ msgstr "نعم"
 #: libraries/classes/Controllers/Database/StructureController.php:1567
 #: libraries/classes/Controllers/Table/DropColumnController.php:80
 #: libraries/classes/Controllers/Table/OperationsController.php:341
-#: libraries/classes/Controllers/Table/ReplaceController.php:398
+#: libraries/classes/Controllers/Table/ReplaceController.php:399
 #: libraries/classes/Core.php:893 templates/preview_sql.twig:3
 msgid "No change"
 msgstr "لا تغييرات"
@@ -8281,6 +8281,7 @@ msgid "Error: Missing index on column(s)."
 msgstr ""
 
 #: libraries/classes/Database/Designer/Common.php:701
+#: libraries/classes/Database/Designer/Common.php:794
 msgid "Error: Relational features are disabled!"
 msgstr ""
 
@@ -8308,13 +8309,13 @@ msgstr "تمت التعديلات"
 msgid "Error: FOREIGN KEY relationship could not be removed!"
 msgstr "لا يمكن قراءة الملف"
 
-#: libraries/classes/Database/Designer/Common.php:812
+#: libraries/classes/Database/Designer/Common.php:820
 #, fuzzy
 #| msgid "File could not be read"
 msgid "Error: Internal relationship could not be removed!"
 msgstr "لا يمكن قراءة الملف"
 
-#: libraries/classes/Database/Designer/Common.php:818
+#: libraries/classes/Database/Designer/Common.php:826
 #, fuzzy
 #| msgid "Internal relations"
 msgid "Internal relationship has been removed."
@@ -11787,14 +11788,14 @@ msgstr "نوع التصدير غير صحيح"
 msgid "no description"
 msgstr "بدون وصف"
 
-#: libraries/classes/Relation.php:2074
+#: libraries/classes/Relation.php:2078
 msgid ""
 "You do not have necessary privileges to create a database named "
 "'phpmyadmin'. You may go to 'Operations' tab of any database to set up the "
 "phpMyAdmin configuration storage there."
 msgstr ""
 
-#: libraries/classes/Relation.php:2196
+#: libraries/classes/Relation.php:2200
 #, fuzzy, php-format
 #| msgid ""
 #| "Tracking of changes made in database. Requires the phpMyAdmin "
@@ -11804,13 +11805,13 @@ msgid ""
 "configuration storage there."
 msgstr "تعقب التغيرات الحاصلة على قاعدة البيانات."
 
-#: libraries/classes/Relation.php:2204
+#: libraries/classes/Relation.php:2208
 #, php-format
 msgid ""
 "%sCreate%s the phpMyAdmin configuration storage in the current database."
 msgstr ""
 
-#: libraries/classes/Relation.php:2212
+#: libraries/classes/Relation.php:2216
 #, fuzzy, php-format
 #| msgid ""
 #| "Tracking of changes made in database. Requires the phpMyAdmin "

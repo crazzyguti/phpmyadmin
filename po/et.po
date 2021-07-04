@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phpMyAdmin 5.2.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
-"POT-Creation-Date: 2021-06-27 00:08+0000\n"
+"POT-Creation-Date: 2021-07-04 01:03+0000\n"
 "PO-Revision-Date: 2021-05-22 18:16+0000\n"
 "Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/phpmyadmin/"
@@ -5058,7 +5058,7 @@ msgstr "Jah"
 #: libraries/classes/Controllers/Database/StructureController.php:1567
 #: libraries/classes/Controllers/Table/DropColumnController.php:80
 #: libraries/classes/Controllers/Table/OperationsController.php:341
-#: libraries/classes/Controllers/Table/ReplaceController.php:398
+#: libraries/classes/Controllers/Table/ReplaceController.php:399
 #: libraries/classes/Core.php:893 templates/preview_sql.twig:3
 msgid "No change"
 msgstr "Ei muudetud"
@@ -8557,6 +8557,7 @@ msgid "Error: Missing index on column(s)."
 msgstr "Viga: veeru(de)l puuduv(ad) indeks(id)."
 
 #: libraries/classes/Database/Designer/Common.php:701
+#: libraries/classes/Database/Designer/Common.php:794
 msgid "Error: Relational features are disabled!"
 msgstr "Viga: Seoste funksionaalsusega seonduv on keelatud!"
 
@@ -8576,11 +8577,11 @@ msgstr "Välisvõtme (FOREIGN KEY) seos on kustutatud."
 msgid "Error: FOREIGN KEY relationship could not be removed!"
 msgstr "Viga: Nurjus välisvõtme (FOREIGN KEY) seose kustutamine!"
 
-#: libraries/classes/Database/Designer/Common.php:812
+#: libraries/classes/Database/Designer/Common.php:820
 msgid "Error: Internal relationship could not be removed!"
 msgstr "Viga: Nurjus siseseose kustutamine!"
 
-#: libraries/classes/Database/Designer/Common.php:818
+#: libraries/classes/Database/Designer/Common.php:826
 msgid "Internal relationship has been removed."
 msgstr "Siseseos on kustutatud."
 
@@ -11976,7 +11977,7 @@ msgstr "Ekspordimallide salvestamine"
 msgid "no description"
 msgstr "kirjeldus puudub"
 
-#: libraries/classes/Relation.php:2074
+#: libraries/classes/Relation.php:2078
 msgid ""
 "You do not have necessary privileges to create a database named "
 "'phpmyadmin'. You may go to 'Operations' tab of any database to set up the "
@@ -11986,7 +11987,7 @@ msgstr ""
 "suvalise andmebaasi kaardile 'Operatsioonid' ja määrata phpMyAdmini "
 "häälestuse salvestamine sinna."
 
-#: libraries/classes/Relation.php:2196
+#: libraries/classes/Relation.php:2200
 #, php-format
 msgid ""
 "%sCreate%s a database named 'phpmyadmin' and setup the phpMyAdmin "
@@ -11995,14 +11996,14 @@ msgstr ""
 "%sLoo%s andmebaas 'phpmyadmin' ja häälesta phpMyAdmini seadistuse "
 "salvestamine sinna."
 
-#: libraries/classes/Relation.php:2204
+#: libraries/classes/Relation.php:2208
 #, php-format
 msgid ""
 "%sCreate%s the phpMyAdmin configuration storage in the current database."
 msgstr ""
 "%sLoo%s phpMyAdmini seadistuse salvestuse tabelid aktiivses andmebaasis."
 
-#: libraries/classes/Relation.php:2212
+#: libraries/classes/Relation.php:2216
 #, php-format
 msgid "%sCreate%s missing phpMyAdmin configuration storage tables."
 msgstr "%sLoo%s puuduvad phpMyAdmini seadistuse salvestuse tabelid."

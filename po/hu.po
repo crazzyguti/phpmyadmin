@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phpMyAdmin 5.2.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
-"POT-Creation-Date: 2021-06-27 00:08+0000\n"
+"POT-Creation-Date: 2021-07-04 01:03+0000\n"
 "PO-Revision-Date: 2021-01-22 17:26+0000\n"
 "Last-Translator: William Desportes <williamdes@wdes.fr>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/phpmyadmin/"
@@ -5324,7 +5324,7 @@ msgstr "Igen"
 #: libraries/classes/Controllers/Database/StructureController.php:1567
 #: libraries/classes/Controllers/Table/DropColumnController.php:80
 #: libraries/classes/Controllers/Table/OperationsController.php:341
-#: libraries/classes/Controllers/Table/ReplaceController.php:398
+#: libraries/classes/Controllers/Table/ReplaceController.php:399
 #: libraries/classes/Core.php:893 templates/preview_sql.twig:3
 msgid "No change"
 msgstr "Nincs változás"
@@ -8881,6 +8881,7 @@ msgid "Error: Missing index on column(s)."
 msgstr "Hiba: hiányzó index az oszlopokról."
 
 #: libraries/classes/Database/Designer/Common.php:701
+#: libraries/classes/Database/Designer/Common.php:794
 msgid "Error: Relational features are disabled!"
 msgstr "Hiba: a relációs szolgáltatások le vannak tiltva!"
 
@@ -8900,11 +8901,11 @@ msgstr "Az IDEGEN KULCS kapcsolat eltávolítása megtörtént."
 msgid "Error: FOREIGN KEY relationship could not be removed!"
 msgstr "Hiba: nem sikerült eltávolítani az IDEGEN KULCS kapcsolatot!"
 
-#: libraries/classes/Database/Designer/Common.php:812
+#: libraries/classes/Database/Designer/Common.php:820
 msgid "Error: Internal relationship could not be removed!"
 msgstr "Hiba: nem sikerült eltávolítani a belső kapcsolatot!"
 
-#: libraries/classes/Database/Designer/Common.php:818
+#: libraries/classes/Database/Designer/Common.php:826
 msgid "Internal relationship has been removed."
 msgstr "A belső kapcsolat eltávolítása megtörtént."
 
@@ -12375,7 +12376,7 @@ msgstr "Exportsablonok mentése"
 msgid "no description"
 msgstr "nincs leírás"
 
-#: libraries/classes/Relation.php:2074
+#: libraries/classes/Relation.php:2078
 msgid ""
 "You do not have necessary privileges to create a database named "
 "'phpmyadmin'. You may go to 'Operations' tab of any database to set up the "
@@ -12385,7 +12386,7 @@ msgstr ""
 "adatbázis létrehozásához. El kellene mennie bármelyik adatbázis „Műveletek” "
 "lapjára, hogy ott beállítsa a phpMyAdmin beállítástárolóját."
 
-#: libraries/classes/Relation.php:2196
+#: libraries/classes/Relation.php:2200
 #, php-format
 msgid ""
 "%sCreate%s a database named 'phpmyadmin' and setup the phpMyAdmin "
@@ -12394,13 +12395,13 @@ msgstr ""
 "%sHozzon létre%s egy „phpmyadmin” nevű adatbázist, és állítsa be ott a "
 "phpMyAdmin beállítástárolóját."
 
-#: libraries/classes/Relation.php:2204
+#: libraries/classes/Relation.php:2208
 #, php-format
 msgid ""
 "%sCreate%s the phpMyAdmin configuration storage in the current database."
 msgstr "A phpMyAdmin beállítástároló %slétrehozása%s a jelenlegi adatbázisban."
 
-#: libraries/classes/Relation.php:2212
+#: libraries/classes/Relation.php:2216
 #, php-format
 msgid "%sCreate%s missing phpMyAdmin configuration storage tables."
 msgstr "Hiányzó phpMyAdmin beállítástároló táblák %slétrehozása%s."

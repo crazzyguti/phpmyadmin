@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phpMyAdmin 5.2.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
-"POT-Creation-Date: 2021-06-27 00:08+0000\n"
+"POT-Creation-Date: 2021-07-04 01:03+0000\n"
 "PO-Revision-Date: 2021-01-22 17:26+0000\n"
 "Last-Translator: William Desportes <williamdes@wdes.fr>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/phpmyadmin/"
@@ -5194,7 +5194,7 @@ msgstr "Да"
 #: libraries/classes/Controllers/Database/StructureController.php:1567
 #: libraries/classes/Controllers/Table/DropColumnController.php:80
 #: libraries/classes/Controllers/Table/OperationsController.php:341
-#: libraries/classes/Controllers/Table/ReplaceController.php:398
+#: libraries/classes/Controllers/Table/ReplaceController.php:399
 #: libraries/classes/Core.php:893 templates/preview_sql.twig:3
 msgid "No change"
 msgstr "Нет изменений"
@@ -8751,6 +8751,7 @@ msgid "Error: Missing index on column(s)."
 msgstr "Ошибка: отсутствует индекс в столбце."
 
 #: libraries/classes/Database/Designer/Common.php:701
+#: libraries/classes/Database/Designer/Common.php:794
 msgid "Error: Relational features are disabled!"
 msgstr "Ошибка: Функция связи отключена!"
 
@@ -8770,11 +8771,11 @@ msgstr "Ссылка FOREIGN KEY была удалена."
 msgid "Error: FOREIGN KEY relationship could not be removed!"
 msgstr "Ошибка: ссылку FOREIGN KEY невозможно удалить!"
 
-#: libraries/classes/Database/Designer/Common.php:812
+#: libraries/classes/Database/Designer/Common.php:820
 msgid "Error: Internal relationship could not be removed!"
 msgstr "Ошибка: внутреннюю ссылку невозможно удалить!"
 
-#: libraries/classes/Database/Designer/Common.php:818
+#: libraries/classes/Database/Designer/Common.php:826
 msgid "Internal relationship has been removed."
 msgstr "Внутренняя ссылка удалена."
 
@@ -12202,7 +12203,7 @@ msgstr "Сохранение шаблонов экспорта"
 msgid "no description"
 msgstr "нет описания"
 
-#: libraries/classes/Relation.php:2074
+#: libraries/classes/Relation.php:2078
 msgid ""
 "You do not have necessary privileges to create a database named "
 "'phpmyadmin'. You may go to 'Operations' tab of any database to set up the "
@@ -12212,7 +12213,7 @@ msgstr ""
 "Вы можете перейти на вкладку «Операции» любой базы данных, чтобы настроить "
 "хранилище конфигурации phpMyAdmin."
 
-#: libraries/classes/Relation.php:2196
+#: libraries/classes/Relation.php:2200
 #, php-format
 msgid ""
 "%sCreate%s a database named 'phpmyadmin' and setup the phpMyAdmin "
@@ -12221,13 +12222,13 @@ msgstr ""
 "%sСоздать%s базу данных с именем 'phpmyadmin' и настроить там хранение "
 "конфигурации phpMyAdmin."
 
-#: libraries/classes/Relation.php:2204
+#: libraries/classes/Relation.php:2208
 #, php-format
 msgid ""
 "%sCreate%s the phpMyAdmin configuration storage in the current database."
 msgstr "%sСоздать%s хранилище конфигурации phpMyAdmin в текущей базе данных."
 
-#: libraries/classes/Relation.php:2212
+#: libraries/classes/Relation.php:2216
 #, php-format
 msgid "%sCreate%s missing phpMyAdmin configuration storage tables."
 msgstr "%sСоздать%s отсутствующие таблицы хранения конфигурации phpMyAdmin."

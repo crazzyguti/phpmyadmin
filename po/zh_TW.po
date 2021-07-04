@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phpMyAdmin 5.2.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
-"POT-Creation-Date: 2021-06-27 00:08+0000\n"
+"POT-Creation-Date: 2021-07-04 01:03+0000\n"
 "PO-Revision-Date: 2021-01-22 01:10+0000\n"
 "Last-Translator: William Desportes <williamdes@wdes.fr>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -4905,7 +4905,7 @@ msgstr "是"
 #: libraries/classes/Controllers/Database/StructureController.php:1567
 #: libraries/classes/Controllers/Table/DropColumnController.php:80
 #: libraries/classes/Controllers/Table/OperationsController.php:341
-#: libraries/classes/Controllers/Table/ReplaceController.php:398
+#: libraries/classes/Controllers/Table/ReplaceController.php:399
 #: libraries/classes/Core.php:893 templates/preview_sql.twig:3
 msgid "No change"
 msgstr "無更改"
@@ -8274,6 +8274,7 @@ msgid "Error: Missing index on column(s)."
 msgstr "錯誤：缺少欄位索引。"
 
 #: libraries/classes/Database/Designer/Common.php:701
+#: libraries/classes/Database/Designer/Common.php:794
 msgid "Error: Relational features are disabled!"
 msgstr "錯誤：未啟用關聯功能 !"
 
@@ -8293,11 +8294,11 @@ msgstr "已移除外鍵關聯。"
 msgid "Error: FOREIGN KEY relationship could not be removed!"
 msgstr "錯誤：無法移除外鍵關聯！"
 
-#: libraries/classes/Database/Designer/Common.php:812
+#: libraries/classes/Database/Designer/Common.php:820
 msgid "Error: Internal relationship could not be removed!"
 msgstr "錯誤：無法移除內部關聯！"
 
-#: libraries/classes/Database/Designer/Common.php:818
+#: libraries/classes/Database/Designer/Common.php:826
 msgid "Internal relationship has been removed."
 msgstr "已移除內部關聯。"
 
@@ -11596,7 +11597,7 @@ msgstr "儲存匯出樣板"
 msgid "no description"
 msgstr "無說明"
 
-#: libraries/classes/Relation.php:2074
+#: libraries/classes/Relation.php:2078
 msgid ""
 "You do not have necessary privileges to create a database named "
 "'phpmyadmin'. You may go to 'Operations' tab of any database to set up the "
@@ -11605,7 +11606,7 @@ msgstr ""
 "沒有權限建立名稱為「phpmyadmin」的資料庫。您可能需至「操作」分頁設定 "
 "phpMyAdmin 設定儲存空間。"
 
-#: libraries/classes/Relation.php:2196
+#: libraries/classes/Relation.php:2200
 #, php-format
 msgid ""
 "%sCreate%s a database named 'phpmyadmin' and setup the phpMyAdmin "
@@ -11614,13 +11615,13 @@ msgstr ""
 "%s建立%s名稱為「phpmyadmin」的資料庫，並於該資料庫設置 phpMyAdmin 設定儲存空"
 "間。"
 
-#: libraries/classes/Relation.php:2204
+#: libraries/classes/Relation.php:2208
 #, php-format
 msgid ""
 "%sCreate%s the phpMyAdmin configuration storage in the current database."
 msgstr "於當前資料庫%s建立%s phpMyAdmin 設定儲存空間。"
 
-#: libraries/classes/Relation.php:2212
+#: libraries/classes/Relation.php:2216
 #, php-format
 msgid "%sCreate%s missing phpMyAdmin configuration storage tables."
 msgstr "%s建立%s缺少的 phpMyAdmin 設定儲存空間資料表。"

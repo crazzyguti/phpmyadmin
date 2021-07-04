@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phpMyAdmin 5.2.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
-"POT-Creation-Date: 2021-06-27 00:08+0000\n"
+"POT-Creation-Date: 2021-07-04 01:03+0000\n"
 "PO-Revision-Date: 2021-06-05 20:33+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/phpmyadmin/"
@@ -5118,7 +5118,7 @@ msgstr "Evet"
 #: libraries/classes/Controllers/Database/StructureController.php:1567
 #: libraries/classes/Controllers/Table/DropColumnController.php:80
 #: libraries/classes/Controllers/Table/OperationsController.php:341
-#: libraries/classes/Controllers/Table/ReplaceController.php:398
+#: libraries/classes/Controllers/Table/ReplaceController.php:399
 #: libraries/classes/Core.php:893 templates/preview_sql.twig:3
 msgid "No change"
 msgstr "Değişiklik yok"
@@ -8638,6 +8638,7 @@ msgid "Error: Missing index on column(s)."
 msgstr "Hata: Sütun(lar)da indeks eksik."
 
 #: libraries/classes/Database/Designer/Common.php:701
+#: libraries/classes/Database/Designer/Common.php:794
 msgid "Error: Relational features are disabled!"
 msgstr "Hata: İlişkisel özellikler etkisizleştirildi!"
 
@@ -8657,11 +8658,11 @@ msgstr "FOREIGN KEY ilişkisi kaldırıldı."
 msgid "Error: FOREIGN KEY relationship could not be removed!"
 msgstr "Hata: FOREIGN KEY ilişkisi kaldırılamadı!"
 
-#: libraries/classes/Database/Designer/Common.php:812
+#: libraries/classes/Database/Designer/Common.php:820
 msgid "Error: Internal relationship could not be removed!"
 msgstr "Hata: İç ilişki kaldırılamadı!"
 
-#: libraries/classes/Database/Designer/Common.php:818
+#: libraries/classes/Database/Designer/Common.php:826
 msgid "Internal relationship has been removed."
 msgstr "İç ilişki kaldırıldı."
 
@@ -12083,7 +12084,7 @@ msgstr "Dışa aktarma şablonlarını kaydetme"
 msgid "no description"
 msgstr "Açıklama yok"
 
-#: libraries/classes/Relation.php:2074
+#: libraries/classes/Relation.php:2078
 msgid ""
 "You do not have necessary privileges to create a database named "
 "'phpmyadmin'. You may go to 'Operations' tab of any database to set up the "
@@ -12093,7 +12094,7 @@ msgstr ""
 "değilsiniz. phpMyAdmin yapılandırma depolamasını ayarlamak için herhangi bir "
 "veritabanının 'İşlemler' sekmesine gidebilirsiniz."
 
-#: libraries/classes/Relation.php:2196
+#: libraries/classes/Relation.php:2200
 #, php-format
 msgid ""
 "%sCreate%s a database named 'phpmyadmin' and setup the phpMyAdmin "
@@ -12102,14 +12103,14 @@ msgstr ""
 "Önce 'phpmyadmin' adında bir veritabanı %soluşturun%s ve orada phpMyAdmin "
 "yapılandırma depolama tablolarını ayarlayın."
 
-#: libraries/classes/Relation.php:2204
+#: libraries/classes/Relation.php:2208
 #, php-format
 msgid ""
 "%sCreate%s the phpMyAdmin configuration storage in the current database."
 msgstr ""
 "Şu anki veritabanında phpMyAdmin yapılandırma depolaması %soluşturun%s."
 
-#: libraries/classes/Relation.php:2212
+#: libraries/classes/Relation.php:2216
 #, php-format
 msgid "%sCreate%s missing phpMyAdmin configuration storage tables."
 msgstr "Eksik phpMyAdmin yapılandırma depolama tablolarını %soluşturun%s."

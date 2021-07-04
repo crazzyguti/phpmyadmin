@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phpMyAdmin 5.2.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
-"POT-Creation-Date: 2021-06-27 00:08+0000\n"
+"POT-Creation-Date: 2021-07-04 01:03+0000\n"
 "PO-Revision-Date: 2021-01-22 17:26+0000\n"
 "Last-Translator: William Desportes <williamdes@wdes.fr>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/phpmyadmin/"
@@ -5347,7 +5347,7 @@ msgstr "Ja"
 #: libraries/classes/Controllers/Database/StructureController.php:1567
 #: libraries/classes/Controllers/Table/DropColumnController.php:80
 #: libraries/classes/Controllers/Table/OperationsController.php:341
-#: libraries/classes/Controllers/Table/ReplaceController.php:398
+#: libraries/classes/Controllers/Table/ReplaceController.php:399
 #: libraries/classes/Core.php:893 templates/preview_sql.twig:3
 msgid "No change"
 msgstr "Ingen förändring"
@@ -8882,6 +8882,7 @@ msgid "Error: Missing index on column(s)."
 msgstr "Fel: Saknade index på kolumn/erna."
 
 #: libraries/classes/Database/Designer/Common.php:701
+#: libraries/classes/Database/Designer/Common.php:794
 msgid "Error: Relational features are disabled!"
 msgstr "Fel: Relationella funktioner är inaktiverade!"
 
@@ -8909,13 +8910,13 @@ msgstr "EXTERN nyckel-relation har tagits bort."
 msgid "Error: FOREIGN KEY relationship could not be removed!"
 msgstr "Fel: Extern nyckel-relation kunde inte tas bort!"
 
-#: libraries/classes/Database/Designer/Common.php:812
+#: libraries/classes/Database/Designer/Common.php:820
 #, fuzzy
 #| msgid "Error: Internal relation could not be removed!"
 msgid "Error: Internal relationship could not be removed!"
 msgstr "Fel: Intern relationen kunde inte läggas till!"
 
-#: libraries/classes/Database/Designer/Common.php:818
+#: libraries/classes/Database/Designer/Common.php:826
 #, fuzzy
 #| msgid "Internal relation has been removed."
 msgid "Internal relationship has been removed."
@@ -12362,7 +12363,7 @@ msgstr "Spara exportmallar"
 msgid "no description"
 msgstr "ingen beskrivning"
 
-#: libraries/classes/Relation.php:2074
+#: libraries/classes/Relation.php:2078
 msgid ""
 "You do not have necessary privileges to create a database named "
 "'phpmyadmin'. You may go to 'Operations' tab of any database to set up the "
@@ -12372,7 +12373,7 @@ msgstr ""
 "\"phpmyadmin\". Du kan gå till \"Drift\" fliken i någon databas, och ställa "
 "in phpMyAdmin konfigurationslagring där."
 
-#: libraries/classes/Relation.php:2196
+#: libraries/classes/Relation.php:2200
 #, php-format
 msgid ""
 "%sCreate%s a database named 'phpmyadmin' and setup the phpMyAdmin "
@@ -12381,13 +12382,13 @@ msgstr ""
 "%sCreate%s en databas heter \"phpmyadmin\" och installera phpMyAdmin "
 "konfiguration lagring där."
 
-#: libraries/classes/Relation.php:2204
+#: libraries/classes/Relation.php:2208
 #, php-format
 msgid ""
 "%sCreate%s the phpMyAdmin configuration storage in the current database."
 msgstr "%sCreate%s phpMyAdmin konfiguration lagring i den aktuella databasen."
 
-#: libraries/classes/Relation.php:2212
+#: libraries/classes/Relation.php:2216
 #, php-format
 msgid "%sCreate%s missing phpMyAdmin configuration storage tables."
 msgstr "%sCreate%s saknade phpMyAdmin konfiguration lagringstabeller."

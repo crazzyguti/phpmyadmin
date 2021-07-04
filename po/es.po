@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phpMyAdmin 5.2.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
-"POT-Creation-Date: 2021-06-27 00:08+0000\n"
+"POT-Creation-Date: 2021-07-04 01:03+0000\n"
 "PO-Revision-Date: 2021-03-21 21:41+0000\n"
 "Last-Translator: William Desportes <williamdes@wdes.fr>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/phpmyadmin/"
@@ -5304,7 +5304,7 @@ msgstr "Sí"
 #: libraries/classes/Controllers/Database/StructureController.php:1567
 #: libraries/classes/Controllers/Table/DropColumnController.php:80
 #: libraries/classes/Controllers/Table/OperationsController.php:341
-#: libraries/classes/Controllers/Table/ReplaceController.php:398
+#: libraries/classes/Controllers/Table/ReplaceController.php:399
 #: libraries/classes/Core.php:893 templates/preview_sql.twig:3
 msgid "No change"
 msgstr "Sin cambios"
@@ -8901,6 +8901,7 @@ msgid "Error: Missing index on column(s)."
 msgstr "Error: Índice de columna(s) no encontrado."
 
 #: libraries/classes/Database/Designer/Common.php:701
+#: libraries/classes/Database/Designer/Common.php:794
 msgid "Error: Relational features are disabled!"
 msgstr "Error: ¡Las funcionalidades relacionales están desactivadas!"
 
@@ -8920,11 +8921,11 @@ msgstr "Clave ajena eliminada."
 msgid "Error: FOREIGN KEY relationship could not be removed!"
 msgstr "Error: ¡no se pudo borrar la clave ajena!"
 
-#: libraries/classes/Database/Designer/Common.php:812
+#: libraries/classes/Database/Designer/Common.php:820
 msgid "Error: Internal relationship could not be removed!"
 msgstr "Error: ¡no se pudo borrar la relación interna!"
 
-#: libraries/classes/Database/Designer/Common.php:818
+#: libraries/classes/Database/Designer/Common.php:826
 msgid "Internal relationship has been removed."
 msgstr "Se ha eliminado la relación interna."
 
@@ -12411,7 +12412,7 @@ msgstr "Guardar exportación de plantillas"
 msgid "no description"
 msgstr "Sin descripción"
 
-#: libraries/classes/Relation.php:2074
+#: libraries/classes/Relation.php:2078
 msgid ""
 "You do not have necessary privileges to create a database named "
 "'phpmyadmin'. You may go to 'Operations' tab of any database to set up the "
@@ -12421,7 +12422,7 @@ msgstr ""
 "'phpmyadmin'. Puede ir a la pestaña de 'Operaciones' de cualquier base de "
 "datos para configurar el almacenamiento de configuración en phpMyAdmin."
 
-#: libraries/classes/Relation.php:2196
+#: libraries/classes/Relation.php:2200
 #, php-format
 msgid ""
 "%sCreate%s a database named 'phpmyadmin' and setup the phpMyAdmin "
@@ -12430,7 +12431,7 @@ msgstr ""
 "%sCree%s una base de datos llamada 'phpmyadmin' y configure el "
 "almacenamiento de configuración en phpMyAdmin."
 
-#: libraries/classes/Relation.php:2204
+#: libraries/classes/Relation.php:2208
 #, php-format
 msgid ""
 "%sCreate%s the phpMyAdmin configuration storage in the current database."
@@ -12438,7 +12439,7 @@ msgstr ""
 "%sCrear%s las tablas de almacenamiento de configuración de phpMyAdmin en la "
 "base de datos actual."
 
-#: libraries/classes/Relation.php:2212
+#: libraries/classes/Relation.php:2216
 #, php-format
 msgid "%sCreate%s missing phpMyAdmin configuration storage tables."
 msgstr ""
